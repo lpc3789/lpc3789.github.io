@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    align-content: center;
+    width: 60%;
+    max-width: 400px;
+    transform: rotate(90deg);
+    border-style: groove;
+    border-color: saddlebrown;
+    border-width: 15px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 90px;
+    margin-right: 25px;
+}
+
+body {
+    background-image: url(woodbg.jpg);
+    background-size: cover;
+}
